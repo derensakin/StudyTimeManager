@@ -1,0 +1,215 @@
+public class Course
+{
+    private String courseName;
+    private String courseCode;
+
+    public Course(String courseName, String courseCode)
+    {
+        this.courseName = courseName;
+        this.courseCode = courseCode;
+    }
+
+    public String toString()
+    {
+        return "Course Name: " + courseName + "\nCourse Code: " + courseCode;
+    }
+
+    public static void main(String[] args) 
+    {
+        Course programmingFundamentals = new Course("Programming Fundamentals", "CS201");
+        System.out.println( programmingFundamentals);
+        
+        
+        Course advancedProgramming = new Course("Advanced Programming", "CS204");
+        System.out.println(advancedProgramming);
+        
+        Course introductiontoDataScience = new Course("Introduction to Data Science", "CS210");
+        System.out.println(introductiontoDataScience);
+        
+        Course dataStructures = new Course("Data Structures", "CS300");
+        System.out.println(dataStructures);
+        
+        Course algorithms = new Course("Algorithms", "CS301");
+        System.out.println(algorithms);
+        
+        Course formalLanguagesandAutomataTheory = new Course("Formal Languages and Automata Theory", "CS302");
+        System.out.println(formalLanguagesandAutomataTheory);
+        
+        Course logicandDigitalSystemDesign = new Course("Logic and Digital System Design", "CS303");
+        System.out.println(logicandDigitalSystemDesign);
+        
+        Course programmingLanguages = new Course("Programming Languages", "CS305");
+        System.out.println(programmingLanguages);
+        
+        Course databaseSystems = new Course("Database Systems", "CS306");
+        System.out.println(databaseSystems);
+        
+        Course operatingSystems = new Course("Operating Systems", "CS307");
+        System.out.println(operatingSystems);
+        
+        Course softwareEngineering = new Course("Software Engineering", "CS308");
+        System.out.println(softwareEngineerings);
+        
+        Course mobileDevelopment = new Course("Mobile Development", "CS310");
+        System.out.println(mobileDevelopment);
+            
+        Course (logicinComputerScience) = new Course("Logic in Computer Science", "CS400");
+         System.out.println(logicinComputerScience);
+
+         Course (computerArchitectures) = new Course("Computer Architectures", "CS401");
+         System.out.println(computerArchitectures);
+
+         Course (compilerDesign) = new Course("Compiler Design", "CS402");
+         System.out.println(compilerDesign);
+
+         Course (distributedSystems) = new Course("Distributed Systems", "CS403");
+         System.out.println(distributedSystems);
+
+         Course (artificialIntelligence) = new Course("Artificial Intelligence", "CS404");
+         System.out.println(artificialIntelligence);
+
+         Course (computerGraphics) = new Course("Computer Graphics", "CS405");
+         System.out.println(computerGraphics);
+
+         Course (parallelComputing) = new Course("Parallel Computing", "CS406");
+         System.out.println(parallelComputing);
+
+         Course (theoryofComputation) = new Course("Theory of Computation", "CS407");
+         System.out.println(theoryofComputation);
+
+         Course (computerNetworks) = new Course("Computer Networks", "CS408");
+         System.out.println(computerNetworks);
+
+         Course (cryptography) = new Course("Cryptography", "CS411");
+         System.out.println(cryptography);
+
+         Course (machineLearning) = new Course("Machine Learning", "CS412");
+         System.out.println(machineLearning);
+
+         Course (networkScience) = new Course("Network Science", "CS414");
+         System.out.println(networkScience);
+
+         Course (digitalImageandVideoAnalysis) = new Course("Digital Image and Video Analysis", "CS419");
+         System.out.println(digitalImageandVideoAnalysis);
+
+         Course (computerandNetworkSecurity) = new Course("Computer and Network Security", "CS432");
+         System.out.println(computerandNetworkSecurity);
+
+         Course (cybersecurityPracticesandApplications) = new Course("Cybersecurity Practices and Applications", "CS437");
+         System.out.println(cybersecurityPracticesandApplications);
+
+         Course (blockchain:SecurityandApplications) = new Course("Blockchain: Security and Applications", "CS438");
+         System.out.println(blockchain:SecurityandApplications);
+
+         Course (softwareVerificationandValidation) = new Course("Software Verification and Validation", "CS439");
+         System.out.println(softwareVerificationandValidation);
+
+         Course (softwareDesignPatterns) = new Course("Software Design Patterns", "CS442");
+         System.out.println(softwareDesignPatterns);
+
+         Course (naturalLanguageProcessing) = new Course("Natural Language Processing", "CS445");
+         System.out.println(naturalLanguageProcessing);
+
+         Course (humanComputerInteraction) = new Course("Human Computer Interaction", "CS449");
+         System.out.println(humanComputerInteraction);
+
+         Course (artsandComputing) = new Course("Arts and Computing", "CS450");
+         System.out.println(artsandComputing);
+
+         Course (specialTopicsinCS:SoftwareDesignPatterns) = new Course("Special Topics in CS: Software Design Patterns", "CS48000");
+         System.out.println(specialTopicsinCS:SoftwareDesignPatterns);
+
+         Course (specialTopicsinCS:Blockchain:Securityand) = new Course("Special Topics in CS: Blockchain: Securityand", "CS48001");
+         System.out.println(specialTopicsinCS:Blockchain:Securityand);
+
+         Course (specialTopicsinCS:NetworkScience) = new Course("Special Topics in CS: Network Science", "CS48002");
+         System.out.println(specialTopicsinCS:NetworkScience);
+
+         Course (specialTopicsinCS:ParallelComputerArchitectures) = new Course("Special Topics in CS: Parallel Computer Architectures", "CS48003");
+         System.out.println(specialTopicsinCS:ParallelComputerArchitectures);
+
+         Course (specialTopicsinCS:AgileSoftwareDevelopment) = new Course("Special Topics in CS: Agile Software Development", "CS48004");
+         System.out.println(specialTopicsinCS:AgileSoftwareDevelopment);
+
+         Course (specialTopicsinCS:DecentralizedFinance) = new Course("Special Topics in CS: Decentralized Finance", "CS48006");
+         System.out.println(specialTopicsinCS:DecentralizedFinance);
+
+         Course (specialTopicsinCS:InternetofThingsSensing) = new Course("Special Topics in CS: Internet of Things Sensing", "CS48007");
+         System.out.println(specialTopicsinCS:InternetofThingsSensing);
+
+         Course (machineLearning) = new Course("Machine Learning", "CS512");
+         System.out.println(machineLearning);
+
+         Course (electronicCircuitImplementations) = new Course("Electronic Circuit Implementations", "EE200");
+         System.out.println(electronicCircuitImplementations);
+
+         Course (electronicCircuitsII) = new Course("Electronic Circuits II", "EE202");
+         System.out.println(electronicCircuitsII);
+
+         Course (electromagneticsII) = new Course("Electro Magnetics II", "EE301");
+         System.out.println(electromagneticsII);
+
+         Course (digitalIntegratedCircuits) = new Course("Digital Integrated Circuits", "EE302");
+         System.out.println(digitalIntegratedCircuits);
+
+         Course (analogIntegratedCircuits) = new Course("Analog Integrated Circuits", "EE303");
+         System.out.println(analogIntegratedCircuits);
+
+         Course (semiconductorPhysicsandDevices) = new Course("Semiconductor Physics and Devices", "EE307");
+         System.out.println(semiconductorPhysicsandDevices);
+
+         Course (microcomputerBasedSysDesign) = new Course("Microcomputer Based Sys Design", "EE308");
+         System.out.println(microcomputerBasedSysDesign);
+
+         Course (introductiontoSignalProcessingandInformation) = new Course("Introduction to Signal Processing and Information", "EE311");
+         System.out.println(introductiontoSignalProcessingandInformation);
+
+         Course (discreteSignals&Systems) = new Course("Discrete Signals & Systems", "EE312");
+         System.out.println(discreteSignals&Systems);
+
+         Course (introductiontoCommunicationSystems) = new Course("Introduction to Communication Systems", "EE313");
+         System.out.println(introductiontoCommunicationSystems);
+
+         Course (digitalCommunications) = new Course("Digital Communications", "EE314");
+         System.out.println(digitalCommunications);
+
+         Course (vLSISystemsDesignI) = new Course("vLSISystemsDesignI", "EE401");
+         System.out.println(vLSISystemsDesignI);
+
+         Course (vLSISystemsDesignII) = new Course("vLSISystemsDesignII", "EE402");
+         System.out.println(vLSISystemsDesignII);
+
+         Course (optoelectronics) = new Course("Opto Electronics", "EE403");
+         System.out.println(optoelectronics);
+
+         Course (communicationCircuitsDesign) = new Course("Communication Circuits Design", "EE405");
+         System.out.println(communicationCircuitsDesign);
+
+         Course (microelectronicFabrication) = new Course("Microelectronic Fabrication", "EE407");
+         System.out.println(microelectronicFabrication);
+
+         Course (modelingofSemicondDevices) = new Course("Modeling of Semicond Devices", "EE408");
+         System.out.println(modelingofSemicond Devices);
+
+         Course (microwaves) = new Course("Microwaves", "EE409");
+         System.out.println(microwaves);
+
+         Course (informationandCodingTheory) = new Course("Information and Coding Theory", "EE410");
+         System.out.println(informationandCodingTheory);
+
+         Course (wirelessCommunications) = new Course("Wireless Communications", "EE413");
+         System.out.println(wirelessCommunications);
+
+         Course (multimediaCommunication) = new Course("Multimedia Communication", "EE414");
+         System.out.println(multimediaCommunication);
+
+         Course (digitalSpeech&AudioProcess) = new Course("Digital Speech & Audio Process", "EE415");
+         System.out.println(digitalSpeech&AudioProcess);
+
+         
+     }
+
+
+        
+    }
+}
